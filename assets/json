@@ -1,0 +1,4 @@
+let jsonRes = '{"fact":"Fossil records from two million years ago show evidence of jaguars.","length":67}';
+
+let validRes = JSON.parse(jsonRes);
+console.log(validRes.fact);
